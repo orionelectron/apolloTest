@@ -72,18 +72,8 @@ function AuthorMutation() {
   const [mutateAuthor, { loading, error, data }] = useMutation(AUTHOR_MUTATION, {
     update: (cache, {data: { author }}) => {
       const data = cache.readQuery({query: GET_AUTHORS});
-      const author5 = cache.readFragment({
-        id: 'Author:5',
-        fragment: gql`
-          fragment myAuthor on Author{
-            id
-            name
-            age
-          }
-        `
-      });
-      console.log('Author:5', author5);
-      cache.writeQuery({ query: GET_AUTHORS, data: { authors: {author, ...data.authors}}});
+      console.log("Mutation: " + author);
+      cache.writeQuery({ query: GET_AUTHORS, data: { authors: [author, ...data.authors]}});
     }
   });
   if (loading) return <p> Loading... </p>;
