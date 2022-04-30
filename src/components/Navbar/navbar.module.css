@@ -1,0 +1,137 @@
+.links_container div{
+    display: inline-block;
+    
+    
+}
+
+.links_container{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.company_logo{
+    width: 100px;
+    height: 50px;
+}
+.shirt_button{
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #feecca;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.route_links{
+    
+    margin-left: 25%;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.cart{
+    margin-left: 20%;
+}
+
+.cart div{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.route_links > div{
+    margin-right: 15px;
+    padding: 5px;
+}
+
+.route_links > div:hover{
+    color: orange;
+    cursor: pointer;
+    
+}
+.shirt_button > div{
+    width: 10%;
+    height: 10%;
+    background-color: black;
+}
+
+
+#first_dot{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    opacity: 0.5;
+}
+
+#second_dot{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+}
+
+#third_dot{
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+}
+
+#fourth_dot{
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+}
+.company_logo > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.links_container{
+    height: 60px;
+}
+#total_cost{
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#cart_indicator{
+    position: relative;
+    background-color: #feecca;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+
+#cart_indicator > div{
+    position: absolute;
+    top:0;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 30;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+#cart_indicator > img{
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    
+}
+
+
+

@@ -1,0 +1,150 @@
+.tablet_container{
+    background-color: #feecca;
+    border: 5px solid white;
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 1000px;
+    
+    
+    
+}
+
+.product_details{
+    position: relative;
+    margin-top: 50px;
+    box-shadow: 0 0 5px rgba(224, 3, 3, 0.1);
+    background-image: radial-gradient(circle 100px  at 50% 50px, rgb(255, 102, 0), rgb(255, 213, 27)),
+    radial-gradient(circle 200px  at 50% 50px, rgb(255, 174, 0), rgb(223, 182, 2)),
+    radial-gradient(circle farthest-side at top right, #f5b88d, orange);
+    background-repeat: no-repeat;
+   border-radius: 40px;
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.breadcrumbs{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner{
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+.prev_next{
+    position: absolute;
+    top: 18%;
+    left: 80%;
+
+}
+
+.prev_next > span{
+    padding: 10px;
+    border: 2px solid white;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+   
+
+}
+
+.prev_next > span:hover{
+    border: 2px solid orangered;
+    color: orangered
+}
+
+.dashboard_container{
+    position: relative;
+    height: 400px;
+    top: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #fcd6ae;
+    width: 90%;
+    border-radius: 40px;
+}
+
+.dashboard_container > div{
+    position: relative;
+    display: inline-block;
+    top: 5%;
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+
+
+.text_description{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(48, 48, 235);
+    margin-bottom: 10px;
+
+}
+
+.text_title{
+    color: grey;
+}
+
+.prod_images{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.prod_image{
+    width: 30%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.prod_image > img{
+    width: 100%;
+    height: 60px;
+}
+
+.product{
+    border-radius: 50%;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    position: relative;
+    height: 80%;
+
+}
+
+.prod_image_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    background-color: #feecca;
+}
+
+.prod_image_container > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.product_attribute{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.checked{
+    color: orange;
+}
